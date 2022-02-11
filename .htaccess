@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([^.?]+).json(.*)$ app.php$2 [L]
